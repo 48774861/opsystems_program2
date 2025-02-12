@@ -1,4 +1,6 @@
 # Operating Systems: Programming 2
+Name: Marc Pham  
+CS5343 student must perform Program 1 and Program 2 only.
 ## Program 1
 Program 1 asks us to use the fork() system call to create a hierarchy of 3 processes such that P is the parent of P1 and P1 is the parent of P2. The program `program1.c` begins by having the Parent process (P) create a Child process (P1) using `fork()` within the `main()` function. An if statement is used to distinguish between the Parent (P) and the Child (P1) processes. The Child process (P1) then uses `fork()` again to create its own Child (P2). Each process (P, P1, and P2) then prints out the ID of its corresponding parent or child. 
 
